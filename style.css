@@ -1,0 +1,116 @@
+body{
+	background-color:#DAE2FF;
+}
+.main{
+	margin-bottom:5%;
+}
+.profile{
+	position:absolute;
+	top:5%;
+	left:35%;
+	text-align:center;
+	height:350px;
+	width:500px;
+	border-radius:2%;
+	background-color:white;
+}
+.profile img{
+	width:100px;
+	height:100px;
+	border-radius: 50%;
+	border: 2px;
+}
+.profile a{
+	border-bottom: 100%;
+}
+.profile h1{
+	color: #EB3541;
+	font-size: large;
+}
+.profile h2{
+	color: #BCC2FE;
+	font-size:medium;
+}
+.profile p{
+	color: #A995BD;
+	font-size:small;
+	margin: 10px;
+}
+ul{
+	position:relative;
+	left: 10%;
+	display: flex;
+
+}
+li{
+
+	display: inline-block;
+	padding-right: 50px;
+}
+.link{
+	text-align:center;
+	position:absolute;
+	background-color:white;
+	top:58%;
+	left:35%;
+	width:500px;
+	border-radius: 2%;	
+	color: #DAE2FF;
+}
+.link a{
+	color: #DAE2FF;
+}
+.Movies{
+	position:absolute;
+	background-color:white;
+	top:73%;
+	left:35%;
+	width:500px;
+	border-radius: 2%;
+	margin-bottom:5%;
+}
+.Movies img{
+	width:100px;
+	height:150px;
+}
+.Movies p{
+	margin-left:3px;
+	color: #A995BD;
+	font-size: small;
+}
+.Movies h2{
+	color: #A995BD;
+	font-size:medium;
+	text-align: center;
+}
+.Movies td{
+	margin-bottom:50px;
+}
+.Movies table  h3{
+	text-align:center;
+	color: #A995BD;
+}
+	
+.space{
+	display:grid;
+	grid-template-columns:repeat(3, 1fr)
+}
+.space p{
+	grid-column: 1 / span 2;
+}
+.bouton a {
+display:block;
+width:150px;
+line-height:50px;
+text-align:center;
+vertical-align:middle;
+background-color: #EB3541;
+color:white;
+text-decoration:none;
+border-radius:15%
+}
+.bouton{
+	position:relative;
+	bottom:0;
+	left:35%;
+}
